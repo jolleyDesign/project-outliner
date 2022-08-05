@@ -2,6 +2,11 @@
 ## function for creating folder and file outline for design projects
 ## file should be stored in /bin, else PATH should point to it for quick access
 
+# defining the "help" argument
+if [[ $1 == "help" ]]; then
+    echo "First argument should be directory for operation to take place in."
+    echo "Second argument is optional, and is for defining a parent directory for creation."
+
 # checking if first argument is a valid directory
 if [[ -d "$1" ]]; then
     # continue code
