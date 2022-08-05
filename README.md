@@ -27,3 +27,6 @@ sudo chmod +x /usr/local/bin/project-outline.sh
 ```
 project-outline.sh /usr/WantedDirectory ParentDirectoryName
 ```
+
+## Notes and future updates
+This can all be simplified with the introduction of variables and for loops, and will be in the future. For now, this is just a quick and dirty implementation.
