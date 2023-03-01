@@ -1,5 +1,5 @@
 # project-outliner
-Creates directories and files for my design project standards.
+Python script for creating directories and files for my design project standards.
 
 BASH script that creates specific directories and files according to my project standards for design projects.
 
